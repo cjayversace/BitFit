@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@+id/wishCellContainer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:text="day"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_gravity = "center"
+            android:layout_weight="1">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/water"
+            android:text="gallons"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_gravity = "center"
+            android:layout_weight="1">
+        </TextView>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
